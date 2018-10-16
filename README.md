@@ -27,7 +27,7 @@ Usage
 -----
 
 ```
-$ mockserver [OPTIONS]
+$ simplemockserver [OPTIONS]
 Options:
   -f [FILE], --file=[FILE]
     Read mock configuration from file (see example.json).
@@ -43,12 +43,12 @@ Examples:
 
 Starting a mock server at port 8080 with configuration file:
 ```
-$ mockserver -f example.json -p 8080
+$ simplemockserver -f example.json -p 8080
 ```
 
 Starting a mock server at port 8080 with plain configuration:
 ```
-$ mockserver -p 8080 -c '{"routes": [{"path": "/hello", "body": "world"}]}'
+$ simplemockserver -p 8080 -c '{"routes": [{"path": "/hello", "body": "world"}]}'
 ```
 
 Mock configuration

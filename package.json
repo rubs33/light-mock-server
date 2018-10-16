@@ -1,7 +1,7 @@
 {
-  "name": "mockserver",
+  "name": "simple-mock-server",
   "version": "1.0.0",
-  "description": "Mock server",
+  "description": "Simple mock server",
   "main": "main.js",
   "scripts": {
     "start": "node ./main.js",
@@ -19,6 +19,6 @@
     "lodash": "^4.17.11"
   },
   "bin": {
-    "mockserver": "./main.js"
+    "simplemockserver": "./main.js"
   }
 }

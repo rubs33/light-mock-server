@@ -1,6 +1,6 @@
 {
   "name": "light-mock-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple mock server",
   "repository": "rubs33/light-mock-server",
   "main": "main.js",

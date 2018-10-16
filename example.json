@@ -1,0 +1,26 @@
+{
+  "default404": {
+    "body": {
+      "message": "resource not found"
+    }
+  },
+  "routes": [
+    {
+      "method": "get",
+      "path": "/hello/:id",
+      "status": 200,
+      "body": {
+        "message": "hello"
+      }
+    },
+    {
+      "method": "post",
+      "path": "/world",
+      "status": 201,
+      "headers": {
+        "content-type": "text/plain"
+      },
+      "body": "created"
+    }
+  ]
+}

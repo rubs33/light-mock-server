@@ -1,0 +1,24 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "Mock server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "test"
+  },
+  "keywords": [
+    "mock",
+    "api"
+  ],
+  "author": "Rubens Takiguti Ribeiro",
+  "license": "LGPL3",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "bin": {
+    "mockserver": "./main.js"
+  }
+}

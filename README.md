@@ -15,7 +15,7 @@ Building
 
 Just run (it may require root or sudo access):
 ```
-$ npm --global install git+http://github.com/rubs33/mockserver.git
+$ npm --global install light-mock-server
 ```
 
 It will install the command `mockserver` globally, in the folder `bin` of node path.

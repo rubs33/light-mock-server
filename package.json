@@ -1,6 +1,6 @@
 {
   "name": "light-mock-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple mock server",
   "main": "main.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "lodash": "^4.17.11"
   },
   "bin": {
-    "simplemockserver": "./main.js"
+    "lms": "./main.js",
+    "lightmockserver": "./main.js"
   }
 }
